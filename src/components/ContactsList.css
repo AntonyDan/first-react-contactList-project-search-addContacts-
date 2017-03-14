@@ -1,0 +1,29 @@
+.contacts-list{
+  display: flex;
+  flex-flow: column nowrap;
+  width: 90%;
+  padding-left: 0px;
+  margin: 10px auto;
+
+}
+.contacts-list ul{
+  padding: 0px;
+  margin: 0px;
+}
+.contacts-list li{
+  width: 100%;
+  list-style: none;
+  border-bottom: 3px solid #928577;
+  display: flex;
+  flex-flow: row;
+}
+.contacts-list li p{
+  font-size: 18px;
+  width: 50%;
+  margin-bottom: 5px;
+}
+.contacts-list li p .delete{
+  float: right;
+  font-size: 18px;
+  color: red;
+}

@@ -1,0 +1,26 @@
+.add-list{
+  display: flex;
+  flex-flow: row nowrap;
+  width: 90%;
+  margin: 15px auto 5px auto;
+}
+.input-list{
+  width: 100%
+}
+.input-list input{
+  height: 30px;
+  width:95%;
+  margin: 5px auto;
+  border-radius: 3px;
+  border: 1px solid black;
+  text-indent: 10px
+}
+.add-button{
+  width: 100px;
+  border-radius: 3px;
+  border: 1px solid #A799A8;
+  background: #86827E;
+  margin: 5px auto;
+  color: white;
+  font-size: 15px;
+}

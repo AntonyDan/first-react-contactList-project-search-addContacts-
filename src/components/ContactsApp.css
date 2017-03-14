@@ -1,0 +1,17 @@
+.contacts-app{
+  width: 400px;
+  margin: 10px auto;
+  border-radius: 5px;
+  border: 2px solid black;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.contacts-app .search-field{
+  height: 30px;
+  width:90%;
+  margin: 5px auto;
+  border-radius: 3px;
+  border: 1px solid black;
+  text-indent: 10px
+}
